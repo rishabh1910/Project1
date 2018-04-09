@@ -1,0 +1,8 @@
+package com.niit.dao;
+
+public interface ProductDao {
+
+	public List<Product> getAllProducts();
+	Product getProductById(int productId);
+	
+}

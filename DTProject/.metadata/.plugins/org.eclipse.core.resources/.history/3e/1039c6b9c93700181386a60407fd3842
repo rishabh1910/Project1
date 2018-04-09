@@ -1,0 +1,11 @@
+package com.niit.dao.impl;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+@Transactional
+@Repository
+
+public class ProductDaoImpl implements ProductDao{
+
+}

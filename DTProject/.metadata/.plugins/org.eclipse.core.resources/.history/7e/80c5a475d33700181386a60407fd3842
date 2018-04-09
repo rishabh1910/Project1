@@ -1,0 +1,20 @@
+package com.niit.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.niit.dao.ProductDao;
+import com.niit.service.ProductService;
+
+@Service
+public abstract class ProductServiceImpl implements ProductService{
+	
+@Autowired
+ProductDao productDao;
+
+public List<Product> getAllProducts(){
+	
+	return productDao.getAllProducts();
+}
+
+}

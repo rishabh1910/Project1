@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+ <html>
+ <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+  
+
+  
+</head>
+ 
+ 
+ <body>
+        <header>
+		    <nav class="navbar navbar-default">
+                <div class="col-lg-6">
+			        <img src=".template/resources/images/sc.png" style="width:60px; height:60px; float:left;" alt="Sassy Classy">
+			        <ul class="nav navbar-nav">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+	                </ul>
+			    </div>
+			    
+			    <div class="col-lg-6">
+			        <ul class="navbar-right nav navbar-nav">
+                        <li><a href="login">Log In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+	                </ul>
+			    </div>
+            </nav>
+        </header>
+</body>
+</html>
